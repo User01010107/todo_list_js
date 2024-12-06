@@ -1,0 +1,26 @@
+GET http://localhost:5000/api/todos/
+###
+POST http://localhost:5000/api/todos/create/
+Content-Type: application/json
+
+{
+    "value": "to do title",
+    "completed": false
+}
+### 
+PUT http://localhost:5000/api/todos/679f784a-5a3e-4ef1-8b00-674afe12ac9d
+Content-Type: application/json
+
+{
+    "value": "update data title"
+}
+###completed 
+PATCH http://localhost:5000/api/todos/679f784a-5a3e-4ef1-8b00-674afe12ac9d
+Content-Type: application/json
+
+{
+    "completed": true
+}
+###delete 
+DELETE http://localhost:5000/api/todos/0f509d9f-a457-43a4-9771-9785053b9685
+###

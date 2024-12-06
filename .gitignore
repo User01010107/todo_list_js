@@ -1,0 +1,7 @@
+*.db
+*.env
+*.env.local
+
+*.vscode
+node_modules/
+*/**/node_modules
